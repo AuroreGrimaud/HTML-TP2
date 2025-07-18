@@ -11,7 +11,7 @@ body {
 
 header {
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 40px 20px;
+  padding: 20px 20px;
   text-align: center;
   color: #f5e1a4;
   font-family: 'Pirata One', serif;
@@ -35,7 +35,7 @@ h1 {
   color: #9494ff; 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-size: 3.5em;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 h2 {
