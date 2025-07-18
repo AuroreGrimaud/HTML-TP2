@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibliothèque projet</title>
+  <link rel="stylesheet" href="css.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img id="logo" src="img/logo.png" alt="Logo Bibliothèque">
+    <h1>Bienvenue dans notre bibliothèque</h1>
+    <p>Explorez nos livres anciens et empruntez-les avec soin</p>
+  </header>
+
+  <main>
+    <section id="form-section">
+      <h2>Ajouter un livre</h2>
+      <form id="book-form">
+        <label for="title">Titre:</label>
+        <input type="text" id="title" name="title" required>
+        
+        <label for="author">Auteur:</label>
+        <input type="text" id="author" name="author" required>
+        
+        <label for="year">Année de publication:</label>
+        <input type="number" id="year" name="year" required>
+        
+        <button type="submit">Ajouter le livre</button>
+      </form>
+    </section>
+    <section id="search-section">
+      <h2>Rechercher un livre</h2>
+      <form id="search-form">
+        <label for="search-title">Titre :</label>
+        <input type="text" id="search-title" name="search-title" placeholder="Entrez le titre du livre">
+        <label for="search-author">Auteur :</label>
+        <input type="text" id="search-author" name="search-author" placeholder="Entrez l'auteur du livre">
+        <label for="search-year">Année de publication :</label>
+        <input type="text" id="search-year" name="search-year" placeholder="Entrez l'année de publication">
+        <button type="submit">Rechercher</button>
+      </form>
+    </section>
+    <section id="library-section">
+      <h2>Livres disponibles</h2>
+      <ul id="book-list"></ul>
+    </section>
+    <section id="borrowed-section">
+      <h2>Livres empruntés</h2>
+      <ul id="borrowed-list"></ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Projet Bibliothèque  Aurore Grimaud</p>
+  </footer>
+
+  <script src="js.js"></script>
+</body>
+</html>
